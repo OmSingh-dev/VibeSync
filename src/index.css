@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-sage-50: #f4f6f3;
+  --color-sage-100: #e9ece6;
+  --color-sage-200: #d5dbd0;
+  --color-sage-600: #5c6c55;
+  --color-sage-700: #4c5a46;
+  --color-sage-800: #3c4838;
+  --color-cream-50: #fdfdfb;
+  --color-cream-100: #fbfaf5;
+  --color-cream-200: #f4f1e6;
+  --color-cream-300: #ebdcb9;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "VibeSync",
+  "description": "An AI-powered companion that proactively assists in planning, breaking down, and completing tasks with intelligent re-scheduling and context-aware reminders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
